@@ -5,7 +5,9 @@
 		"error":"/var/log/v2ray/error.log"
 	},
 
-  "inbounds": [{
+  "inbounds": [
+ 
+  {
     "port": 10000,
     "listen":"127.0.0.1",
     "protocol": "vmess",
@@ -15,7 +17,17 @@
           "id": "5f9fa0fb-203c-4713-a045-841464d50c13",
           "level": 1,
           "alterId": 64
-        }
+        },
+	{
+	  "id":"1c06c339-7717-4e7d-899f-225fd11d1606",
+	  "level": 1,
+	  "alterId":64
+	},
+	{
+	  "id":"1dfc60f3-d56d-4fa4-8ab3-178054ba73bd",
+	  "level":1,
+	  "alterId":64
+	}
       ]
     },
     "streamSettings":{
@@ -24,7 +36,8 @@
 	  "path":"/ray"
 	}
     }
-  }],
+  }
+  ],
   "outbounds": [{
     "protocol": "freedom",
     "settings": {}
