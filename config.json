@@ -20,7 +20,12 @@
         },
 	{
 	  "id":"1c06c339-7717-4e7d-899f-225fd11d1606",
-	  "level": 1,
+	  "level": 0,
+	  "alterId":64
+	},
+	{
+	  "id":"e833e3f3-b3fb-447d-b8f1-5cf48c521726",
+	  "level":0,
 	  "alterId":64
 	},
 	{
