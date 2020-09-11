@@ -13,8 +13,19 @@
     "protocol": "vmess",
     "settings": {
       "clients": [
-        {
-          "id": "5f9fa0fb-203c-4713-a045-841464d50c13",
+	
+	{ //tianniu
+	  "id":"d8a48d40-aa8e-463e-a459-79a71215fc9f",
+	  "level":1,
+	  "alterId":64  
+	},
+	{
+	  "id":"00dd9885-755a-48e6-819c-c936cf61941c",
+	  "level":1,
+	  "alterId":64
+	},
+	{
+          "id": "17840192-9e62-41b4-94dc-6c5977e8ff47",
           "level": 1,
           "alterId": 64
         },
@@ -32,6 +43,11 @@
 	  "id":"1dfc60f3-d56d-4fa4-8ab3-178054ba73bd",
 	  "level":1,
 	  "alterId":64
+	},
+	{
+	  "id":"91967cf1-2939-4830-8267-ff7925bf0fb2",
+	  "level":0,
+	  "alterId":59
 	}
       ]
     },
